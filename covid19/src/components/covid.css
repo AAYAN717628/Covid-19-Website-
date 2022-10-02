@@ -1,0 +1,84 @@
+/*  Basic Styling */
+.mainbody {
+    background-color: rgb(68, 66, 66);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+h1, p, h2, h3, footer {
+    color: white;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_main {
+    height: 150px;
+    width: 300px;
+    margin: 35px;
+    align-items: center;
+    background-color: rgb(116, 116, 209);
+}
+
+.card_red {
+    height: 150px;
+    width: 300px;
+    margin: 35px;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+}
+.card_green {
+    height: 150px;
+    width: 300px;
+    margin: 35px;
+    align-items: center;
+    background-color: rgb(0, 255, 55);
+}
+.card_cyan {
+    height: 150px;
+    width: 300px;
+    margin: 35px;
+    align-items: center;
+    background-color: rgb(0, 255, 221);
+}
+.card_yellow {
+    height: 150px;
+    width: 300px;
+    margin: 35px;
+    align-items: center;
+    background-color: rgba(235, 255, 53, 0.733);
+}
+.card_blue {
+    height: 150px;
+    width: 300px;
+    margin: 35px;
+    align-items: center;
+    background-color: rgb(53, 40, 238);
+}
+.card_org {
+    height: 150px;
+    width: 300px;
+    margin: 35px;
+    align-items: center;
+    background-color: rgb(253, 135, 0);
+}
+.card_name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card_name span {
+    font-size: 15px;
+}
+
+.card_total {
+    font-size: 20px;
+    font-weight: bold;
+
+}
